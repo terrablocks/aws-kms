@@ -21,7 +21,7 @@ module "kms" {
 | Name | Version |
 |------|---------|
 | terraform | >= 0.13 |
-| aws | >= 3.37.0 |
+| aws | >= 3.64.0 |
 
 ## Inputs
 
