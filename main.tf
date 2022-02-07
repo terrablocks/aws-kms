@@ -1,6 +1,8 @@
 data "aws_caller_identity" "current" {}
 
 data "aws_iam_policy_document" "default" {
+  # checkov:skip=CKV_AWS_109: Default KMS policy
+  # checkov:skip=CKV_AWS_111: Default KMS policy
   statement {
     sid       = "Allow IAM access"
     effect    = "Allow"
