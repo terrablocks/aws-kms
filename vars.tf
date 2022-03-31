@@ -42,7 +42,7 @@ variable "enable_key_rotation" {
 
 variable "multi_region" {
   type        = bool
-  default     = true
+  default     = false
   description = "Whether to create a multi-region key"
 }
 

@@ -34,7 +34,7 @@ module "kms" {
 | policy | IAM policy in JSON format to associate to the key | `string` | `""` | no |
 | deletion_window | Number of days after which key should be deleted. Minimum is 7 and maximum is 30 days, both inclusive | `number` | `7` | no |
 | enable_key_rotation | Whether to automatically rotate key periodically | `bool` | `true` | no |
-| multi_region | Whether to create a multi-region key | `bool` | `true` | no |
+| multi_region | Whether to create a multi-region key | `bool` | `false` | no |
 | alias | Alias for KMS key | `string` | n/a | yes |
 | tags | Map of key-value pair to associate with resources | `map(string)` | `{}` | no |
 
